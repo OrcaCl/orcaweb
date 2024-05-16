@@ -1,0 +1,92 @@
+/*
+ORCA Diseño - Se viene se viene, gracias por mirar por acá.
+
+2024
+
+
+*/
+
+
+/* Clases Apoyo */
+.beta {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7fc1e2+0,003359+71 */
+	background: #7fc1e2; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #7fc1e2 0%, #003359 71%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #7fc1e2 0%,#003359 71%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #7fc1e2 0%,#003359 71%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fc1e2', endColorstr='#003359',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	overflow: hidden;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.t-centro {
+	text-align: center;
+}
+
+.orca-links {
+	text-decoration: none;
+}
+/***************************************************/
+
+body {
+	background-color: #fff;
+	font-family: 'Muli', sans-serif;
+	font-size: 1em;
+	color: #fff;
+}
+
+.contenedor {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flexbox;
+	display: box;
+	display: flex;
+	
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-webkit-justify-content: center; 
+
+	-webkit-flex-direction: column;
+   flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+	
+	width: 50%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.contenedor div.svg {
+	padding: 20px;
+	width: 350px !important;
+	height: auto;
+}
+
+.contenedor .svg .orca-logo {
+	width: 100%;
+	height: auto;
+}
+
+
+.contenedor h2 {
+	font-size: 1em;
+}
+
+.contenedor p {
+	font-size: 0.8em;
+}
+
+.contenedor ul a,
+.contenedor ul a:active,
+.contenedor ul a:visited {
+	color: #fff;
+}
+
+.contenedor ul a:hover {
+	color: #7fc1e2;
+}
